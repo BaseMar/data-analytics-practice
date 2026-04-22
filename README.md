@@ -24,3 +24,6 @@ The goal is to build strong fundamentals and transition into real data analysis 
 
 ## Goal
 Become a job-ready Data Analyst.
+
+## Progress
+- 22.04.2026: Basic SQL queries (SELECT, WHERE, AVG, MIN/MAX)
