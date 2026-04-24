@@ -22,8 +22,10 @@ I practice daily using platforms like:
 - HackerRank: [https://www.hackerrank.com/](https://www.hackerrank.com/profile/BaseMar)
 - Codewars: [https://www.codewars.com/](https://www.codewars.com/users/BaseMar)
 
-I focus on consistency, problem-solving, and understanding how data is processed and analyzed.
-
+The focus is on building practical data analysis skills:
+- working with structured data (SQL)
+- processing data in Python
+- understanding real-world data problems
 ---
 
 ## Current focus
@@ -34,6 +36,7 @@ I focus on consistency, problem-solving, and understanding how data is processed
 
 ## Progress
 - 22.04.2026: Basic SQL queries (SELECT, WHERE, AVG, MIN/MAX)
+- 24.04.2026: Python: Average calculation, Positive vs negative analysis, Data cleaning (extracting numbers)
 
 ---
 
