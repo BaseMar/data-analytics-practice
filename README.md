@@ -38,7 +38,7 @@ The focus is on building practical data analysis skills:
 - 22.04.2026: Basic SQL queries (SELECT, WHERE, AVG, MIN/MAX)
 - 24.04.2026: Python: Average calculation, Positive vs negative analysis, Data cleaning (extracting numbers)
 - 25.04.2026: Basic data retrieval (SELECT), Filtering data (MOD, DISTINCT), Detecting duplicates (COUNT vs COUNT DISTINCT), String manipulation (CONCAT, LEFT), Aggregation (GROUP BY), Data formatting for reporting
-- 26.04.2026 Basics Python: List processing, Filtering and transformation, Basic user segmentation logic
+- 27.04.2026 Basics Python: List processing, Filtering and transformation, Basic user segmentation logic
 ---
 
 ## Goal
