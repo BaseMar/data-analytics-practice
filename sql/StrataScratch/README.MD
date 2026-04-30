@@ -30,5 +30,5 @@ GROUP BY user
 ORDER BY total_messages DESC
 LIMIT 10;
 '''
-
+---
 #### 🔴 Hard
