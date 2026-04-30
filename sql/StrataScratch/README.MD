@@ -9,16 +9,16 @@ Meta/Facebook Messenger stores the number of messages between users in a table n
 Find the top 10 most active users on Meta/Facebook Messenger by counting their total number of messages sent and received. Your solution should output usernames and the count of the total messages they sent or received
 
 Table
-'''
+```
 date: date
 id: bigint
 msg_count: bigint
 user1: text
 user2: text
-'''
+```
 
 Solution
-'''
+```
 WITH combined_messages AS (
     SELECT user1 AS user, msg_count FROM fb_messages
     UNION ALL
@@ -29,6 +29,8 @@ FROM combined_messages
 GROUP BY user
 ORDER BY total_messages DESC
 LIMIT 10;
-'''
+```
+
 ---
+
 #### 🔴 Hard
