@@ -21,6 +21,7 @@ I focus on building practical skills in:
 I practice daily using platforms like:
 - HackerRank: [https://www.hackerrank.com/](https://www.hackerrank.com/profile/BaseMar)
 - Codewars: [https://www.codewars.com/](https://www.codewars.com/users/BaseMar)
+- StrataScratch (real-world data analysis problems)
 
 The focus is on building practical data analysis skills:
 - working with structured data (SQL)
@@ -40,6 +41,7 @@ The focus is on building practical data analysis skills:
 - 25.04.2026: Basic data retrieval (SELECT), Filtering data (MOD, DISTINCT), Detecting duplicates (COUNT vs COUNT DISTINCT), String manipulation (CONCAT, LEFT), Aggregation (GROUP BY), Data formatting for reporting
 - 27.04.2026 Basics Python: List processing, Filtering and transformation, Basic user segmentation logic
 - 29.04.2026 Basic SQL: Working with multiple tables using JOIN, Aggregating data (AVG, SUM), Grouping data by categories (GROUP BY)
+- 30.04.2026 Medium SQL: User activity analysis, Aggregation and ranking
 
 ---
 
