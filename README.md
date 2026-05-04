@@ -42,6 +42,7 @@ The focus is on building practical data analysis skills:
 - 27.04.2026 Basics Python: List processing, Filtering and transformation, Basic user segmentation logic
 - 29.04.2026 Basic SQL: Working with multiple tables using JOIN, Aggregating data (AVG, SUM), Grouping data by categories (GROUP BY)
 - 30.04.2026 Medium SQL: User activity analysis, Aggregation and ranking
+- 4.05.2026 Medium SQL: Filtering data based on conditions, Identifying updated/latest records in datasets, Ranking and value comparison
 
 ---
 
