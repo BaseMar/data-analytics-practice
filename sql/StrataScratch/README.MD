@@ -1,6 +1,7 @@
 ## SQL Practice
 
 ### StrataScratch
+#### 🟢 Easy
 
 #### 🟡 Medium
 **1. Most Active Users On Messenger** [Problem](https://platform.stratascratch.com/coding/10295-most-active-users-on-messenger)
