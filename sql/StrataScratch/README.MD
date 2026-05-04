@@ -24,4 +24,19 @@ LIMIT 10;
 
 ---
 
+**2. Second Highest Salary ** [Problem](https://platform.stratascratch.com/coding/9892-second-highest-salary)
+
+*Find the second highest salary of employees.*
+
+Solution
+```
+SELECT salary
+FROM (
+    SELECT salary,
+           DENSE_RANK() OVER (ORDER BY salary DESC) AS salary_rank
+    FROM employee
+) ranked_salaries
+WHERE salary_rank = 2;
+```
+---
 #### 🔴 Hard
