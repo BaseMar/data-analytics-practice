@@ -2,6 +2,19 @@
 
 ### StrataScratch
 #### 🟢 Easy
+**1. Find all posts which were reacted to with a heart** [Problem](https://platform.stratascratch.com/coding/10087-find-all-posts-which-were-reacted-to-with-a-heart)
+
+*Find all posts which were reacted to with a heart. For such posts output all columns from facebook_posts table.*
+
+Solution
+```
+SELECT DISTINCT fp.*
+FROM facebook_posts fp
+JOIN facebook_reactions fr ON fr.post_id = fp.post_id
+AND fr.reaction = 'heart';
+```
+
+---
 
 #### 🟡 Medium
 **1. Most Active Users On Messenger** [Problem](https://platform.stratascratch.com/coding/10295-most-active-users-on-messenger)
@@ -22,9 +35,6 @@ GROUP BY user
 ORDER BY total_messages DESC
 LIMIT 10;
 ```
-
----
-
 **2. Second Highest Salary** [Problem](https://platform.stratascratch.com/coding/9892-second-highest-salary)
 
 *Find the second highest salary of employees.*
