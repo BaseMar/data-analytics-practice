@@ -14,6 +14,21 @@ JOIN facebook_reactions fr ON fr.post_id = fp.post_id
 AND fr.reaction = 'heart';
 ```
 
+**2. Finding Updated Records** [Problem](https://platform.stratascratch.com/coding/10299-finding-updated-records)
+
+*We have a table with employees and their salaries; however, some of the records are old and contain outdated salary information. Since there is no timestamp, assume salary is non-decreasing over time. You can consider the current salary for an employee is the largest salary value among their records. If multiple records share the same maximum salary, return any one of them. Output their id, first name, last name, department ID, and current salary. Order your list by employee ID in ascending order.*
+
+Solution
+```
+SELECT id, first_name, last_name, department_id, salary
+FROM (
+    SELECT *,
+    ROW_NUMBER() OVER (PARTITION BY id ORDER BY salary DESC, department_id DESC) AS rn FROM ms_employee_salary) S
+WHERE rn =1
+ORDER BY id ASC;
+```
+
+
 ---
 
 #### 🟡 Medium
